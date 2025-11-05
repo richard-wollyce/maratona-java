@@ -4,6 +4,10 @@ public class Pessoa {
     protected String nome;
     protected String cpf;
     protected Endereco endereco;
+
+    static  {
+
+    }
     public Pessoa(String nome) {
         this.nome = nome;
     }
